@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" exact>
-            <Redirect to="/dashboard/home" />
+            <Redirect to="/dashboard/app" />
           </Route>
           <Route path="/dashboard/:page"><Dashboards /></Route>
         </Switch>
